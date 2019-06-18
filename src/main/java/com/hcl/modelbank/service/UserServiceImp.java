@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.hcl.modelbank.dto.UserResponseDTO;
 import com.hcl.modelbank.entity.User;
-import com.hcl.modelbank.respository.UserRepository;
+import com.hcl.modelbank.repository.UserRepository;
 
 @Service
 public class UserServiceImp implements UserService {
