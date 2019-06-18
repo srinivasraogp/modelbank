@@ -11,4 +11,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 	@Query(value="select u from User u where u.customerId=:customerid AND u.password=:password ")
     User login(@Param ("customerid") long customerid ,@Param("password") String password);
+
+	User findByAccountNumber(Long accountNumber);
 }
