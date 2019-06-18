@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hcl.modelbank.dto.UserReqDTO;
-import com.hcl.modelbank.dto.UserResDTO;
 import com.hcl.modelbank.service.UserService;
 
 @RestController

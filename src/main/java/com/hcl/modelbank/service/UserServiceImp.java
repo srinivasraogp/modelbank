@@ -3,7 +3,6 @@ package com.hcl.modelbank.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.hcl.modelbank.dto.UserResDTO;
 import com.hcl.modelbank.entity.User;
 import com.hcl.modelbank.respository.UserRepository;
 
